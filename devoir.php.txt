@@ -1,0 +1,19 @@
+<!DOCTYPE>
+    <html>
+       <head>
+<title>Mysql</title>
+           <head>
+<body>
+
+mysql create database misha
+Create table eleve(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,nom TEXT(25),prenom TEXT(25),contact TEXT(25));
+INSERT INTO fertyno(id,nom,prenom,contact)VALUES(NULL,'ATALA','Ferry','076540049');
+ALTER TABLE'eleve'ADD'email'TEXT NOT NULL AFTER'contact',ADD'pays'TEXT NOT NULL AFTTER'email';
+INSERT INTO eleve(id,nom,prenom,email,contact,pays)VALUES (NULL'NGOUA','Merveille','mishamerveille@gmail.com','065165232','Gabon');
+DELETE FROM 'eleve' WHERE 'eleve','id'=1;
+DROP TABLE eleve;
+DROP DATABASE. fertyno;
+
+
+</body>
+</html>
